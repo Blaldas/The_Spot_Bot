@@ -14,7 +14,7 @@ lineReader.eachLine('constants.txt', function(line) {
 });
 
 
-const PREFIX = '$';
+const PREFIX = '%';
 
 const cheerio = require("cheerio");
 const request = require("request");
@@ -54,6 +54,7 @@ bot.on('message', message=>{
             .addField('Owner:', owner)
             .addField('Info:', info)
             .addField('Outros:', others);
+
 
             message.channel.send(embed);
             break;
