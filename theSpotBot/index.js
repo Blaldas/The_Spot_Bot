@@ -93,7 +93,7 @@ bot.on('message', message=>{
             //console.log(args[1]);
             //break;
             if(args[1] >= 100) return message.reply('Calma aí amigão!\nVamos tentar não crashar o servidor, ok?');
-            message.channel.bulkDelete(args[1]+1);
+            message.channel.bulkDelete(parseInt(args[1], 10 ) +1);
             break;
         
         //MUSICA
