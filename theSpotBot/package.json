@@ -1,0 +1,24 @@
+{
+  "name": "thespotbot",
+  "version": "1.0.0",
+  "description": "a very simple discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "The_Spot_Bot"
+  },
+  "keywords": [
+    "bot",
+    "discord"
+  ],
+  "author": "Blaldas",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "discord.js": "^12.2.0",
+    "line-reader": "^0.4.0"
+  }
+}
